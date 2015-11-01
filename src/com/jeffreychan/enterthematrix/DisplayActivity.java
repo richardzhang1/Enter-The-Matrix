@@ -7,6 +7,7 @@ import android.content.SharedPreferences.Editor;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Bundle;
+import android.support.v7.appcompat.R;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.Menu;
