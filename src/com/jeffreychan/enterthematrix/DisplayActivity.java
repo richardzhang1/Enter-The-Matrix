@@ -1,5 +1,6 @@
 package com.jeffreychan.enterthematrix;
 
+import android.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,7 +8,6 @@ import android.content.SharedPreferences.Editor;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.v7.appcompat.R;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.Menu;
@@ -29,7 +29,7 @@ public class DisplayActivity extends Activity implements OnClickListener {
 	RelativeLayout mainLayout;
 	Button saveA, saveB, saveC, saveD, saveE;
 	boolean isStarting = true;
-	int saveButtonWidth;
+	int saveButtonWidth; 
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,7 @@ public class DisplayActivity extends Activity implements OnClickListener {
 		columns = bundle.getInt("column");
 		myTextViewArray = new TextView[rows][columns];
 		
-		mainLayout = (RelativeLayout) findViewById(R.id.mainLayout);
+		mainLayout = (RelativeLayout) findViewById(com.jeffreychan.enterthematrix.R.id.mainLayout);
 		
 		// Get dimensions of the screen
 		Display display = getWindowManager().getDefaultDisplay();

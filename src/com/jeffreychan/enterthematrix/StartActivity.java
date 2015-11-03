@@ -1,4 +1,4 @@
-﻿package com.jeffreychan.enterthematrix;
+package com.jeffreychan.enterthematrix;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -49,7 +49,7 @@ public class StartActivity extends Activity implements OnClickListener, OnItemSe
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_start);
-		getWindow().getDecorView().setBackgroundColor(Color.rgb(34, 107, 76));
+		getWindow().getDecorView().setBackgroundColor(Color.rgb(34, 177, 76));
 		
 		// Get dimensions of screen and set up display variables
 		Display display = getWindowManager().getDefaultDisplay();
